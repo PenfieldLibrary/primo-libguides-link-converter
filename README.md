@@ -1,6 +1,6 @@
 # primo-libguides-link-converter
 ## Description
-This application will take a file of non-Primolinks and convert them to Primo links.
+This application will take a file of non-Primo links and convert them to Primo links. Then export them to a CSV file.
 
 ## Installation
 
@@ -12,7 +12,7 @@ This application will take a file of non-Primolinks and convert them to Primo li
 
 4. Create a shortcut for "LibGuidesAlmaUpdater.exe" in the installed directory
 
-## Initial setup for first time starup
+## Initial setup for first time startup
 
 1. Goto File-->Alma / Primo settings
 2. Enter your library settings for the SRU server
@@ -32,5 +32,15 @@ Example for SUNY Oswego
 
 ![Settings](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/settings.jpg)
 
+### How to use
+Please see video <a href="">tutorial</a>
 ### Screenshot
-![screenshot2](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/step1.jpg)
+![step 1](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/step1.jpg)
+
+![step 2](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/step2.jpg)
+
+![step3](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/step3.jpg)
+
+![Quick Convert](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/quickconvert.jpg)
+
+![Quick Convert Verify](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/quickconvert2.jpg)
