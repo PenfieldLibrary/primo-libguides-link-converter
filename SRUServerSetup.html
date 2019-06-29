@@ -1,0 +1,63 @@
+<h1 id="howtosetupansruserver">How to setup an SRU Server</h1>
+
+<h2 id="description">Description</h2>
+
+<p>This is basic instructions to setup your library SRU server.</p>
+
+<h2 id="setup">Setup</h2>
+
+<ol>
+<li><p>On the Integration Profile List page (<font color="#2C4D82">Configuration Menu > General > External Systems > Integration Profiles</font>), select <b>Add Integration Profile</b>. Page 1 of the External System wizard opens.</p></li>
+
+<li><p>Enter a unique code for the new integration type.</p></li>
+
+<li><p>Enter a unique name for the new integration type.</p></li>
+
+<li><p>Select <b>SRU</b> Server for <b>Integration Type</b>.</p></li>
+</ol>
+
+<pre><code>The Default check box is not functional for this integration type.
+</code></pre>
+
+<ol>
+<li><p>Select <b>Next</b>.</p></li>
+
+<li><p>Configure the SRU integration profile using the parameter explanations in the table below.</p></li>
+</ol>
+
+<p><img src="https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/sample-SRU-profile.png" alt="sample SRU profile" /></p>
+
+<h2 id="testyoursruserverurl">Test your SRU Server URL</h2>
+
+<pre><code>SRU Server URL
+https://&lt;Alma domain&gt;/view/sru/&lt;institution code&gt;
+
+Example SRU Server:
+For SUNY Oswego Penfield library
+https://suny-osw.primo.exlibrisgroup.com/discovery/search?sortby=rank&amp;vid=01SUNY_OSW:01SUNY_OSW&amp;lang=en
+
+&lt;Alma domain&gt; is https://suny-osw.primo.exlibrisgroup.com
+
+&lt;institution code&gt; is 01SUNY_OSW:01SUNY_OSW
+
+SRU Server
+https://suny-osw.primo.exlibrisgroup.com/view/sru/01SUNY_OSW
+
+Server response
+&lt;searchRetrieveResponse xmlns="http://www.loc.gov/zing/srw/" xmlns:diag="http://www.loc.gov/zing/srw/diagnostic/"&gt;
+  &lt;version&gt;1.2&lt;/version&gt;
+    &lt;diagnostics&gt;
+      &lt;diag:diagnostic&gt;
+      &lt;diag:uri&gt;200832&lt;/diag:uri&gt;
+        &lt;diag:details/&gt;
+        &lt;diag:message&gt;Mandatory parameter version was not provided&lt;/diag:message&gt;
+      &lt;/diag:diagnostic&gt;
+    &lt;/diagnostics&gt;
+&lt;/searchRetrieveResponse&gt;
+</code></pre>
+
+<p>`</p>
+
+<h2 id="reference">Reference</h2>
+
+<p>For more information please see <a href="https://knowledge.exlibrisgroup.com/Alma/Product_Documentation/010Alma_Online_Help_%28English%29/090Integrations_with_External_Systems/030Resource_Management/190SRU_SRW_Search">Ex Libris SRU/SRW Search</a></p>
