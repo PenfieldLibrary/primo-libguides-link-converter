@@ -33,7 +33,7 @@ Example for SUNY Oswego
 ![Settings](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/settings.jpg)
 
 ### How to use
-Please see video <a href="">tutorial</a>
+Please see video <a href="https://youtu.be/dVodpya_Lqk">tutorial</a>
 ### Screenshot
 ![step 1](https://github.com/PenfieldLibrary/primo-libguides-link-converter/raw/master/.docs/step1.jpg)
 
